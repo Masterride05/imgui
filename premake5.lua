@@ -19,5 +19,5 @@ project "ImGui"
     }
     
     filter "system:windows"
-        flags { "MultiProcessorCompile" }
+        multiprocessorcompile ("on")
         staticruntime "on"
