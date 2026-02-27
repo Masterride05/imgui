@@ -9,6 +9,8 @@ project "ImGui"
     files {
         "*.cpp",
         "*.h",
+        "misc/cpp/*.cpp",
+        "misc/cpp/*.h",
         "backends/imgui_impl_glfw.cpp",
         "backends/imgui_impl_opengl3.cpp"
     }

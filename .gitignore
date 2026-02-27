@@ -84,3 +84,7 @@ examples/example_sdl3_vulkan/example_sdl3_vulkan
 *.recipe
 *.tlog
 *.lib
+
+.bin/
+.bin-int/
+MakeFile
